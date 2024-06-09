@@ -1,0 +1,684 @@
+.appointment.main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #e8e9e1;
+  overflow: hidden;
+}
+.appointment .lawFirmSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #1e2e45;
+}
+.appointment .contentCol {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 125px 0px;
+  margin: 80px auto 81px;
+  width: 1596.0903320313px;
+  max-width: 85%;
+}
+@media (max-width: 575px) {
+  .appointment .contentCol {
+    gap: 80px 0px;
+    margin: 80px auto;
+  }
+}
+@media (max-width: 383px) {
+  .appointment .contentCol {
+    gap: 50px 0px;
+    margin: 50px auto;
+  }
+}
+.appointment .headerRow {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px 10px;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .appointment .headerRow {
+    flex-direction: column;
+    gap: 30px 10px;
+  }
+}
+.appointment .brandingRow {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0px 15px;
+  width: 400px;
+  min-width: 0px;
+}
+@media (max-width: 767px) {
+  .appointment .brandingRow {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+@media (max-width: 383px) {
+  .appointment .brandingRow {
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+  }
+}
+.appointment .brandImage {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.appointment .lawFirmTitle {
+  position: relative;
+  font: 400 24px/1.37 "DM Serif Display", Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .appointment .lawFirmTitle {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .appointment .lawFirmTitle {
+    font-size: 20px;
+  }
+}
+.appointment .navigationRow {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 10px;
+  width: 419px;
+  min-width: 0px;
+}
+@media (max-width: 767px) {
+  .appointment .navigationRow {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+@media (max-width: 383px) {
+  .appointment .navigationRow {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 8px;
+  }
+}
+.appointment .homeLink {
+  position: relative;
+  font: 700 18px/1.27 "DM Sans", Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .appointment .homeLink {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+@media (max-width: 383px) {
+  .appointment .homeLink {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+  }
+}
+.appointment .aboutLink {
+  position: relative;
+  font: 400 18px/1.27 "DM Sans", Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .appointment .aboutLink {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+@media (max-width: 383px) {
+  .appointment .aboutLink {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+  }
+}
+.appointment .servicesLink {
+  position: relative;
+  font: 400 18px/1.27 "DM Sans", Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .appointment .servicesLink {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+@media (max-width: 383px) {
+  .appointment .servicesLink {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+  }
+}
+.appointment .contactLink {
+  position: relative;
+  font: 400 18px/1.27 "DM Sans", Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .appointment .contactLink {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+@media (max-width: 383px) {
+  .appointment .contactLink {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+  }
+}
+.appointment .heroRow {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px 10px;
+  width: 92.92%;
+}
+@media (max-width: 1919px) {
+  .appointment .heroRow {
+    flex-direction: column;
+    gap: 30px 10px;
+  }
+}
+.appointment .appointmentTitle {
+  position: relative;
+  width: 550px;
+  font: 400 94px/1.27 "DM Serif Display", Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 1919px) {
+  .appointment .appointmentTitle {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .appointment .appointmentTitle {
+    align-items: flex-start;
+    font-size: 52px;
+  }
+}
+@media (max-width: 479px) {
+  .appointment .appointmentTitle {
+    font-size: 36px;
+  }
+}
+.appointment .heroImage {
+  position: relative;
+  width: 2px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+@media (max-width: 1919px) {
+  .appointment .heroImage {
+    display: none;
+    margin-top: unset;
+    margin-bottom: unset;
+    max-width: 2px;
+  }
+}
+.appointment .heroDescription {
+  position: relative;
+  width: 771px;
+  font: 400 18px/1.27 "DM Sans", Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 1919px) {
+  .appointment .heroDescription {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .appointment .heroDescription {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+.appointment .appointmentSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.appointment .flexCol {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 155px auto 161px;
+  width: 1596.0903320313px;
+  max-width: 85%;
+}
+@media (max-width: 991px) {
+  .appointment .flexCol {
+    margin: 150px auto;
+  }
+}
+@media (max-width: 575px) {
+  .appointment .flexCol {
+    margin: 80px auto;
+  }
+}
+@media (max-width: 383px) {
+  .appointment .flexCol {
+    margin: 50px auto;
+  }
+}
+.appointment .heroTitle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+  font: 400 72px/1.37 "DM Serif Display", Helvetica, Arial, serif;
+  color: #1a1a1a;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .appointment .heroTitle {
+    align-items: flex-start;
+    font-size: 52px;
+  }
+}
+@media (max-width: 479px) {
+  .appointment .heroTitle {
+    font-size: 36px;
+  }
+}
+.appointment .flexCol1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 50px 0px;
+  margin: 80px 0px 0px;
+}
+@media (max-width: 383px) {
+  .appointment .flexCol1 {
+    margin: 50px 0px 0px;
+  }
+}
+.appointment .grid {
+  position: relative;
+  display: grid;
+  align-content: start;
+  row-gap: 50px;
+  -moz-column-gap: 50px;
+  column-gap: 50px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+@media (max-width: 1199px) {
+  .appointment .grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+.appointment .item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0px;
+  grid-row: span 1;
+  grid-column: span 1;
+}
+.appointment .title {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 166px;
+  max-width: 85%;
+  font: 400 32px/1.37 "DM Serif Display", Helvetica, Arial, serif;
+  color: #1a1a1a;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .appointment .title {
+    align-items: flex-start;
+    font-size: 30px;
+  }
+}
+@media (max-width: 479px) {
+  .appointment .title {
+    font-size: 26px;
+  }
+}
+.appointment .highlight {
+  position: relative;
+  font: 400 18px/1.27 "DM Sans", Helvetica, Arial, serif;
+  color: #1a1a1a;
+  padding: 20px 30px 20px 30px;
+  outline: 1.5px solid #022a3a;
+  outline-offset: -1.5px;
+}
+@media (max-width: 991px) {
+  .appointment .highlight {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+@media (max-width: 575px) {
+  .appointment .highlight {
+    padding: 20px 16px 20px 16px;
+  }
+}
+@media (max-width: 383px) {
+  .appointment .highlight {
+    padding: 20px 8px 20px 8px;
+  }
+}
+.appointment .title1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 174px;
+  max-width: 85%;
+  font: 400 32px/1.37 "DM Serif Display", Helvetica, Arial, serif;
+  color: #1a1a1a;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .appointment .title1 {
+    align-items: flex-start;
+    font-size: 30px;
+  }
+}
+@media (max-width: 479px) {
+  .appointment .title1 {
+    font-size: 26px;
+  }
+}
+.appointment .title2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 133px;
+  max-width: 85%;
+  font: 400 32px/1.37 "DM Serif Display", Helvetica, Arial, serif;
+  color: #1a1a1a;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .appointment .title2 {
+    align-items: flex-start;
+    font-size: 30px;
+  }
+}
+@media (max-width: 479px) {
+  .appointment .title2 {
+    font-size: 26px;
+  }
+}
+.appointment .flexRow {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 10px;
+  padding: 20px 30px 20px 30px;
+  outline: 1.5px solid #022a3a;
+  outline-offset: -1.5px;
+}
+@media (max-width: 575px) {
+  .appointment .flexRow {
+    padding: 20px 16px 20px 16px;
+  }
+}
+@media (max-width: 383px) {
+  .appointment .flexRow {
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+    padding: 20px 8px 20px 8px;
+  }
+}
+.appointment .highlight1 {
+  position: relative;
+  margin: 1px 0px 0px;
+  font: 400 18px/1.27 "DM Sans", Helvetica, Arial, serif;
+  color: #1a1a1a;
+}
+@media (max-width: 991px) {
+  .appointment .highlight1 {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+.appointment .image {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.appointment .title3 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 78px;
+  max-width: 85%;
+  font: 400 32px/1.37 "DM Serif Display", Helvetica, Arial, serif;
+  color: #1a1a1a;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .appointment .title3 {
+    align-items: flex-start;
+    font-size: 30px;
+  }
+}
+@media (max-width: 479px) {
+  .appointment .title3 {
+    font-size: 26px;
+  }
+}
+.appointment .flexRow1 {
+  position: relative;
+  display: flex;
+  padding: 20px 6px 20px 30px;
+  outline: 1.5px solid #022a3a;
+  outline-offset: -1.5px;
+}
+@media (max-width: 575px) {
+  .appointment .flexRow1 {
+    padding: 20px 6px 20px 16px;
+  }
+}
+@media (max-width: 383px) {
+  .appointment .flexRow1 {
+    padding: 20px 6px 20px 8px;
+  }
+}
+.appointment .highlight2 {
+  position: relative;
+  margin: 1px 0px 0px;
+  width: 713px;
+  font: 400 18px/1.27 "DM Sans", Helvetica, Arial, serif;
+  color: #1a1a1a;
+  outline-offset: -1.5px;
+  outline-color: #022a3a;
+  outline-style: solid;
+}
+@media (max-width: 991px) {
+  .appointment .highlight2 {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+.appointment .title4 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 235px;
+  max-width: 85%;
+  font: 400 32px/1.37 "DM Serif Display", Helvetica, Arial, serif;
+  color: #1a1a1a;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .appointment .title4 {
+    align-items: flex-start;
+    font-size: 30px;
+  }
+}
+@media (max-width: 479px) {
+  .appointment .title4 {
+    font-size: 26px;
+  }
+}
+.appointment .flexCol2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 21px 0px;
+}
+.appointment .titleBox_box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 205px;
+  max-width: 85%;
+}
+@media (max-width: 991px) {
+  .appointment .titleBox_box {
+    align-items: flex-start;
+  }
+}
+.appointment .titleBox {
+  font: 400 32px/1.37 "DM Serif Display", Helvetica, Arial, serif;
+  color: #1a1a1a;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .appointment .titleBox {
+    font-size: 30px;
+  }
+}
+@media (max-width: 479px) {
+  .appointment .titleBox {
+    font-size: 26px;
+  }
+}
+.appointment .titleBox_span0 {
+  font: 1em/1.37 "DM Serif Display", Helvetica, Arial, serif;
+}
+.appointment .titleBox_span1 {
+  font: 0.5625em/1.27 "DM Sans", Helvetica, Arial, serif;
+}
+.appointment .highlight3 {
+  position: relative;
+  font: 400 18px/1.27 "DM Sans", Helvetica, Arial, serif;
+  color: #1a1a1a;
+  padding: 19px 30px 157px 30px;
+  outline: 1.5px solid #022a3a;
+  outline-offset: -1.5px;
+}
+@media (max-width: 991px) {
+  .appointment .highlight3 {
+    align-items: flex-start;
+    padding: 19px 30px 150px 30px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 575px) {
+  .appointment .highlight3 {
+    padding: 19px 16px 80px 16px;
+  }
+}
+@media (max-width: 383px) {
+  .appointment .highlight3 {
+    padding: 19px 8px 50px 8px;
+  }
+}
+.appointment .btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px 0px;
+  width: 300px;
+  max-width: 100%;
+  font: 400 24px/1.37 "DM Serif Display", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  background-color: #1e2e45;
+  padding: 10px 8px 10px 8px;
+}
+.appointment .legalServicesSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #1e2e45;
+}
+.appointment .contentContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px 0px;
+  margin: 160px auto 155px;
+  width: 1290px;
+  max-width: 85%;
+}
+@media (max-width: 991px) {
+  .appointment .contentContainer {
+    margin: 150px auto;
+  }
+}
+@media (max-width: 575px) {
+  .appointment .contentContainer {
+    margin: 80px auto;
+  }
+}
+@media (max-width: 383px) {
+  .appointment .contentContainer {
+    margin: 50px auto;
+  }
+}
+.appointment .mainTitle {
+  position: relative;
+  font: 400 72px/1.37 "DM Serif Display", Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .appointment .mainTitle {
+    align-items: flex-start;
+    font-size: 52px;
+  }
+}
+@media (max-width: 479px) {
+  .appointment .mainTitle {
+    font-size: 36px;
+  }
+}
+.appointment .subTitle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 1062.0555419922px;
+  max-width: 85%;
+  font: 400 18px/1.27 "DM Sans", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .appointment .subTitle {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
