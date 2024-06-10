@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
-<!--  This source code is exported from pxCode, you can get more document from https://www.pxcode.io  -->
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
@@ -17,7 +16,7 @@
     <script type="text/javascript" src="https://unpkg.com/sticky-js@1.3.0/dist/sticky.min.js"></script>
     <script type="text/javascript" src="https://unpkg.com/headroom.js@0.12.0/dist/headroom.min.js"></script>
 
-
+    <title>Contact Us</title>
 
 </head>
 
@@ -46,7 +45,8 @@
                     <h1 class="heroTitle">Contact Us</h1>
                     <img class="heroImage" src="./images/banner_line.svg" alt="alt text" />
                     <h4 class="heroDesc">
-                        At Pearson Specter Litt, we provide top-tier legal services with a personalized touch, ensuring each
+                        At Pearson Specter Litt, we provide top-tier legal services with a personalized touch, ensuring
+                        each
                         client receives
                         dedicated and expert representation.
                     </h4>
@@ -60,56 +60,83 @@
                     <div class="flexCol11">
                         <h1 class="heroTitle1">Get In touch</h1>
                         <div class="flexCol2">
-                            <div class="grid">
-                                <div class="gridItem">
-                                    <h1 class="inputLabel">First Name*</h1>
-                                    <div class="inputHighlight">Enter first name</div>
+                            <form id="contactForm">
+                                <div class="grid">
+                                    <div class="gridItem">
+                                        <h1 class="inputLabel">First Name*</h1>
+                                        <input class="inputHighlight" placeholder="Enter first name" type="text"
+                                            id="firstName" name="firstName" ></input>
+                                        <div class="error" id="firstNameError" style="display: none;">First Name is required</div>
+                                    </div>
+                                    <div class="gridItem">
+                                        <h1 class="inputLabel1">Last Name*</h1>
+                                        <input class="inputHighlight" placeholder="Enter last email" type="text"
+                                            id="lastName" name="lastName" ></input>
+                                        <div class="error" id="lastNameError" style="display: none;">Last Name is required</div>
+                                    </div>
+                                    <div class="gridItem">
+                                        <h1 class="inputLabel2">Your Phone*</h1>
+                                        <input class="inputHighlight" placeholder="Enter your phone" type="tel"
+                                            id="phone" name="phone" ></input>
+                                        <div class="error" id="phoneError" style="display: none;">Phone Number is required</div>
+                                    </div>
+                                    <div class="gridItem">
+                                        <h1 class="inputLabel">Your Email*</h1>
+                                        <input class="inputHighlight" placeholder="Enter your email" type="email"
+                                            id="email" name="email" ></input>
+                                        <div class="error" id="emailError" style="display: none;">Email is required</div>
+                                    </div>
                                 </div>
-                                <div class="gridItem">
-                                    <h1 class="inputLabel1">Last Name*</h1>
-                                    <div class="inputHighlight">Enter last email</div>
+                                <div class="flexCol3">
+                                    <h1 class="messageBoxLabel_box">
+                                        <span class="messageBoxLabel"><span class="messageBoxLabel_span0">Message
+                                            </span><span class="messageBoxLabel_span1">(optional)</span></span>
+                                    </h1>
+                                    <textarea class="messageHighlight" id="message" name="message" placeholder="Enter your message"></textarea>
                                 </div>
-                                <div class="gridItem">
-                                    <h1 class="inputLabel2">Your Phone*</h1>
-                                    <div class="inputHighlight">Enter your phone</div>
-                                </div>
-                                <div class="gridItem">
-                                    <h1 class="inputLabel">Your Email*</h1>
-                                    <div class="inputHighlight">Enter your email</div>
-                                </div>
-                            </div>
-                            <div class="flexCol3">
-                                <h1 class="messageBoxLabel_box">
-                                    <span class="messageBoxLabel"><span class="messageBoxLabel_span0">Message
-                                        </span><span class="messageBoxLabel_span1">(optional)</span></span>
-                                </h1>
-                                <div class="messageHighlight">Enter message</div>
-                            </div>
-                            <button class="submitButton">Send Message</button>
+                                <button class="submitButton" type="submit">Send Message</button>
+                            </form>
                         </div>
                     </div>
                     <div class="imageGroup">
-                        <img class="coverImage" src="./images/map.png"
-                            alt="alt text" /><img class="logoImage1" src="./images/map_pin.svg"
-                            alt="alt text" />
+                        <img class="coverImage" src="./images/map.png" alt="alt text" /><img class="logoImage1"
+                            src="./images/map_pin.svg" alt="alt text" />
                     </div>
                 </div>
                 <div class="contactInfoRow">
                     <div class="contactInfoItem">
-                        <img class="contactImage" src="./assets/b33704f94d62b3919cfe98cab74bb283.svg" alt="alt text" />
+                        <img class="contactImage" src="./images/phone_icon.svg" alt="alt text" />
                         <h2 class="contactMediumTitle">+1 (123) 456 7890</h2>
                     </div>
                     <div class="contactInfoItem1">
-                        <img class="contactImage" src="./assets/f7a810ff46bfcb029fe25de2a5876b26.svg" alt="alt text" />
+                        <img class="contactImage" src="./images/address_icon.svg" alt="alt text" />
                         <h2 class="contactMediumTitle">123 ABC Street, City, Pr, Postal</h2>
                     </div>
                     <div class="contactInfoItem2">
-                        <img class="contactImage1" src="./assets/f396ac3fcf02f8e18fb4fd3ebdf5a8c0.svg" alt="alt text" />
+                        <img class="contactImage1" src="./images/email_icon.svg" alt="alt text" />
                         <h2 class="contactMediumTitle1">LawFirmB@LawFirmB.com</h2>
                     </div>
                     <div class="contactInfoItem3">
-                        <img class="contactImage" src="./assets/6b676c3a48e04ad19ab8332237062c8f.svg" alt="alt text" />
+                        <img class="contactImage" src="./images/time_icon.svg" alt="alt text" />
                         <h2 class="contactMediumTitle">07.00 am - 06.00 pm</h2>
+                    </div>
+                </div>
+                <div class="contactInfoRow">
+                    <div class="contactInfoItem">
+                        <img class="contactImage" src="./images/icons8-linkedin.svg" alt="alt text" />
+                        <h2 class="contactMediumTitle">Linkedin.com/PSL</h2>
+                    </div>
+                    <div class="contactInfoItem1">
+                        <img class="contactImage" src="./images/twitterX.svg" alt="alt text" />
+                        <h2 class="contactMediumTitle">X.com/PSL</h2>
+                    </div>
+                    <div class="contactInfoItem2">
+                        <img class="contactImage1" src="./images/facebook.svg" alt="alt text" />
+                        <h2 class="contactMediumTitle1">Meta.com/PSL</h2>
+                    </div>
+                    <div class="contactInfoItem3">
+                        <img class="contactImage" src="./images/instagram.svg" alt="alt text" />
+                        <h2 class="contactMediumTitle">Instagram.com/PSL</h2>
                     </div>
                 </div>
             </div>
@@ -119,14 +146,16 @@
             <div class="flexCol4">
                 <h1 class="heroTitle2">We Help You With a Quality Legal Lawyer</h1>
                 <h4 class="highlight">
-                    At Pearson Specter Litt, we help you with quality legal representation, ensuring your rights are protected and
+                    At Pearson Specter Litt, we help you with quality legal representation, ensuring your rights are
+                    protected and
                     your
                     interests are prioritized. Our skilled attorneys provide personalized, attentive service to navigate
                     even
                     the most complex legal challenges. Trust us to deliver the expertise and dedication your case
                     deserves.
                 </h4>
-                <button class="btn" onclick="location.href='Appointment.html';" style="cursor: pointer;">Get Started</button>
+                <button class="btn" onclick="location.href='Appointment.html';" style="cursor: pointer;">Get
+                    Started</button>
             </div>
         </section>
 
@@ -135,6 +164,51 @@
         AOS.init();
         new Sticky('.sticky-effect');
     </script>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            var isValid = true;
+
+            var firstName = document.getElementById('firstName').value;
+            var lastName = document.getElementById('lastName').value;
+            var phone = document.getElementById('phone').value;
+            var email = document.getElementById('email').value;
+
+            if (!firstName) {
+                isValid = false;
+                document.getElementById('firstNameError').style.display = 'block';
+            } else {
+                document.getElementById('firstNameError').style.display = 'none';
+            }
+
+            if (!lastName) {
+                isValid = false;
+                document.getElementById('lastNameError').style.display = 'block';
+            } else {
+                document.getElementById('lastNameError').style.display = 'none';
+            }
+
+            if (!phone) {
+                isValid = false;
+                document.getElementById('phoneError').style.display = 'block';
+            } else {
+                document.getElementById('phoneError').style.display = 'none';
+            }
+
+            if (!email) {
+                isValid = false;
+                document.getElementById('emailError').style.display = 'block';
+            } else {
+                document.getElementById('emailError').style.display = 'none';
+            }
+
+            if (isValid) {
+                alert("Thanks For contacting us, we'll get back ot you ASAP");
+            }
+        });
+    </script>
+
 </body>
 
 </html>

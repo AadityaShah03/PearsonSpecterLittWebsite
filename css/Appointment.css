@@ -368,6 +368,7 @@
   padding: 20px 30px 20px 30px;
   outline: 1.5px solid #022a3a;
   outline-offset: -1.5px;
+  background-color: transparent;
 }
 @media (max-width: 991px) {
   .appointment .highlight {
@@ -453,6 +454,7 @@
   margin: 1px 0px 0px;
   font: 400 18px/1.27 "DM Sans", Helvetica, Arial, serif;
   color: #1a1a1a;
+  background-color: transparent;
 }
 @media (max-width: 991px) {
   .appointment .highlight1 {
@@ -513,7 +515,8 @@
   color: #1a1a1a;
   outline-offset: -1.5px;
   outline-color: #022a3a;
-  outline-style: solid;
+  outline-style: none;
+  background-color: transparent;
 }
 @media (max-width: 991px) {
   .appointment .highlight2 {
@@ -681,4 +684,31 @@
     align-items: flex-start;
     font-size: 16px;
   }
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #022a3a;
+  padding: 20px;
+  border: 2px solid #ffffff;
+  z-index: 9999;
+}
+
+.popup-content {
+  text-align: center;
+}
+
+.close {
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: darkblue;
 }
